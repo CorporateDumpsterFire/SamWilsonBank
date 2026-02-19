@@ -342,7 +342,7 @@ function UserRegistrationForm() {
 
           <div className="form-row">
             <div className="form-group">
-              <label htmlFor="birth_date">Birth Date *</label>
+              <label htmlFor="birth_date">Date of Birth (YYYY-MM-DD) *</label>
               <input
                 type="date"
                 id="birth_date"
