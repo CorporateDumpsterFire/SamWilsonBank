@@ -23,9 +23,6 @@ BackEnd/.env
 *.swp
 *.swo
 
-# Claude settings
-.claude/
-
 # OS files
 .DS_Store
 Thumbs.db
@@ -40,3 +37,4 @@ npm-debug.log*
 # SAM build artifacts
 .aws-sam/
 samconfig.toml
+AWSCLIV2.pkg
