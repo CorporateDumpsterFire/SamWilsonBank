@@ -256,49 +256,9 @@ function UserRegistrationForm() {
           <section className="outcome-container outcome-approved">
             <h2>Application Approved</h2>
             <p>Congratulations! Your application has been approved.</p>
-          
-# Please enter the commit message for your changes. Lines starting
-# with '#' will be ignored, and an empty message aborts the commit.
-#
-# On branch main
-#
-# Initial commit
-#
-# Changes to be committed:
-#	new file:   .gitignore
-#	new file:   BackEnd/.env.example
-#	new file:   BackEnd/package-lock.json
-#	new file:   BackEnd/package.json
-#	new file:   BackEnd/server.js
-#	new file:   FrontEnd/.env.example
-#	new file:   FrontEnd/.gitignore
-#	new file:   FrontEnd/README.md
-#	new file:   FrontEnd/eslint.config.js
-#	new file:   FrontEnd/index.html
-#	new file:   FrontEnd/package-lock.json
-#	new file:   FrontEnd/package.json
-#	new file:   FrontEnd/public/vite.svg
-#	new file:   FrontEnd/src/App.css
-#	new file:   FrontEnd/src/App.jsx
-#	new file:   FrontEnd/src/assets/react.svg
-#	new file:   FrontEnd/src/components/UserRegistrationForm.css
-#	new file:   FrontEnd/src/components/UserRegistrationForm.jsx
-#	new file:   FrontEnd/src/index.css
-#	new file:   FrontEnd/src/main.jsx
-#	new file:   FrontEnd/vite.config.js
-#	new file:   README.md
-#	new file:   infrastructure/deploy.sh
-#	new file:   infrastructure/env.json.example
-#	new file:   infrastructure/lambda/evaluations/index.js
-#	new file:   infrastructure/lambda/evaluations/package.json
-#	new file:   infrastructure/template.yaml
-#
-# Changes not staged for commit:
-#	modified:   .gitignore
-#
-  <button className="btn-new-application" onClick={handleReset}>
+            {/* <button className="btn-new-application" onClick={handleReset}>
               Start New Application
-            </button>
+            </button> */}
           </section>
         )}
 
@@ -306,9 +266,9 @@ function UserRegistrationForm() {
           <section className="outcome-container outcome-manual-review">
             <h2>Manual Review Required</h2>
             <p>Your application is under manual review. We will contact you shortly.</p>
-            <button className="btn-new-application" onClick={handleReset}>
+            {/* <button className="btn-new-application" onClick={handleReset}>
               Start New Application
-            </button>
+            </button> */}
           </section>
         )}
 
@@ -316,9 +276,9 @@ function UserRegistrationForm() {
           <section className="outcome-container outcome-denied">
             <h2>Application Denied</h2>
             <p>Unfortunately, your application has been denied.</p>
-            <button className="btn-new-application" onClick={handleReset}>
+            {/* <button className="btn-new-application" onClick={handleReset}>
               Start New Application
-            </button>
+            </button> */}
           </section>
         )}
       </div>
