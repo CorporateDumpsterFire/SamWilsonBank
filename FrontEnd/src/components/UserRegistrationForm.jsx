@@ -344,11 +344,14 @@ function UserRegistrationForm() {
             <div className="form-group">
               <label htmlFor="birth_date">Date of Birth (YYYY-MM-DD) *</label>
               <input
-                type="date"
+                type="text"
                 id="birth_date"
                 name="birth_date"
                 value={formData.birth_date}
                 onChange={handleInputChange}
+                placeholder="1990-01-15"
+                pattern="\d{4}-\d{2}-\d{2}"
+                title="Date must be in YYYY-MM-DD format"
                 required
               />
             </div>
