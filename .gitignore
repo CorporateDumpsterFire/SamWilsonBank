@@ -1,0 +1,42 @@
+# Dependencies
+node_modules/
+.pnpm-store/
+
+# Build outputs
+dist/
+.aws-sam/
+
+# Environment files (credentials)
+.env
+.env.local
+.env.production
+.env.development
+*.env
+
+# Infrastructure secrets
+infrastructure/env.json
+BackEnd/.env
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Claude settings
+.claude/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+npm-debug.log*
+
+# Word docs (not code)
+*.docx
+
+# SAM build artifacts
+.aws-sam/
+samconfig.toml
